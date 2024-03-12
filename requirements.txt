@@ -1,11 +1,3 @@
+streamlit
 pydeck
 protobuf
-pandas
-numpy
-streamlit
-scikit-learn
-joblib
-shap
-matplotlib
-ipython
-Pillow
