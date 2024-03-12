@@ -2,8 +2,7 @@ from datetime import datetime, timedelta
 
 import pandas as pd
 import streamlit as st
-from mitosheet.streamlit.v1 import spreadsheet
-from mitosheet.streamlit.v1.spreadsheet import _get_mito_backend
+
 
 st.set_page_config(layout="wide")
 
