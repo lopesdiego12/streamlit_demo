@@ -2,6 +2,7 @@ from datetime import datetime, timedelta
 
 import pandas as pd
 import streamlit as st
+import recnn
 from mitosheet.streamlit.v1 import spreadsheet
 from mitosheet.streamlit.v1.spreadsheet import _get_mito_backend
 
