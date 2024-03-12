@@ -396,7 +396,7 @@ def main():
         if len(movies_chosen) == 10:
             st.success("You have selected 10 movies. Now let's rate them")
         else:
-            st.info('Please select 10 movies in the input above')
+            st.info('Please select 10 movies in the input above ,')
 
         if len(movies_chosen) == 10:
             st.markdown('### Rate each movie from 1 to 10')
