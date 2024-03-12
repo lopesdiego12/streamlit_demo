@@ -431,7 +431,7 @@ def main():
 
     if page == "🤖 Reinforce Top K":
         st.title("🤖 Reinforce Top K")
-        st.subheader('This page is under construction test2')
+        st.subheader('This page is under construction')
 
 
 if __name__ == "__main__":
