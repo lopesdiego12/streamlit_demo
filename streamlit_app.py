@@ -425,7 +425,7 @@ def main():
 
             action = models[algorithm].forward(state)
 
-            st.subheader('The neural network thinks you should watch: test')
+            st.subheader('The neural network thinks you should watch: ')
 
             st.write(rank(action[0].detach().cpu().numpy(), dist[metric], topk))
 
