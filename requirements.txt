@@ -1,4 +1,5 @@
 streamlit
 pydeck
 protobuf
+torch
 torchvision
