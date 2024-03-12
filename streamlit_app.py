@@ -1,12 +1,9 @@
+import pandas as pd
+import numpy as np
 import streamlit as st
 
-st.json({
-    'foo': 'bar',
-    'baz': 'boz',
-    'stuff': [
-        'stuff 1',
-        'stuff 2',
-        'stuff 3',
-        'stuff 5',
-    ],
-})
+chart_data = pd.DataFrame(
+    np.random.randn(20, 3),
+    columns=['a', 'b', 'c'])
+
+st.line_chart(chart_data)
